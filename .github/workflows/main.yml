@@ -28,6 +28,6 @@ jobs:
         
         password: MC1puP@o@fOjYk#DvX7^
         
-        server-dir: public_html/hextris
+        server-dir: public_html
         
         timeout: 90000
