@@ -22,11 +22,11 @@ jobs:
     
       with:
       
-        server: files.000webhost.com
+        server: ${{ secrets.FTP_SERVER }}
       
-        username: gitdamienlubat
+        username: ${{ secrets.FTP_USERNAME }}
         
-        password: MC1puP@o@fOjYk#DvX7^
+        password: ${{ secrets.FTP_PASSWORD }}
         
         server-dir: public_html/
         
